@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FE25C03-FD99-2610-EE84-EAA939BFFB62" schemaObject="2D7561CC-BED7-ADE0-86B9-9C7A998F33DA" name="URUNLER">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>BI</sourceObjSchema>
+<sourceObjName>URUNLER</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BARKODNO" id="FC7D2DCF-FB69-BEC9-71F3-E74548D91B01">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>URUNLER</sourceObjSchema>
+<sourceObjName>BARKODNO</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URUNADI" id="E246363D-332F-24CB-DC4A-41AB1992F568">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>URUNLER</sourceObjSchema>
+<sourceObjName>URUNADI</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALISFIYAT" id="7D28BD28-A127-11AB-A1F1-36AE744BEEEC">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>URUNLER</sourceObjSchema>
+<sourceObjName>ALISFIYAT</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SATISFIYAT" id="4AFD85C0-516C-5993-DC26-A1F033F0CD6F">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>URUNLER</sourceObjSchema>
+<sourceObjName>SATISFIYAT</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KATEGORIID" id="5413FD95-45D0-7FFB-2A92-2BC7ACFB16E4">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>URUNLER</sourceObjSchema>
+<sourceObjName>KATEGORIID</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F59D970-398A-5D12-BF68-042532F3EA4C" schemaObject="2D7561CC-BED7-ADE0-86B9-9C7A998F33DA" name="URUNLER_PK">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>BI</sourceObjSchema>
+<sourceObjName>SYS_C007392</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC7D2DCF-FB69-BEC9-71F3-E74548D91B01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

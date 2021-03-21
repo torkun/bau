@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="465ACF5F-71D9-ADB6-33FE-3DB608FDF2CD" schemaObject="2D7561CC-BED7-ADE0-86B9-9C7A998F33DA" name="SATISDETAY">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>BI</sourceObjSchema>
+<sourceObjName>SATISDETAY</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FISNO" id="BD0980D1-CC77-64E0-23AF-270811DAB10B">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>SATISDETAY</sourceObjSchema>
+<sourceObjName>FISNO</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1A6520E-8991-5C30-C8B1-6E3731E78DBD" referredColumn="3057B938-272B-4340-8DBF-46EF21D2D0A1"/>
+</associations>
+</Column>
+<Column name="BARKODNO" id="6D9846D7-9283-FF63-99BF-C8900C4A1956">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>SATISDETAY</sourceObjSchema>
+<sourceObjName>BARKODNO</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="950B84DF-E9B8-3ABE-8A96-CA3CE9C3F59A" referredColumn="FC7D2DCF-FB69-BEC9-71F3-E74548D91B01"/>
+</associations>
+</Column>
+<Column name="ADET" id="2CE404B3-6EAA-2DE0-6B73-04A1EECD6658">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>SATISDETAY</sourceObjSchema>
+<sourceObjName>ADET</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="644EF593-7BFE-B6B2-2396-CC621ED6AB68" name="SYS_C007401">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD0980D1-CC77-64E0-23AF-270811DAB10B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE77A10D-6FFA-D9B5-6F8E-347DF5B12B7E" name="SYS_C007402">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D9846D7-9283-FF63-99BF-C8900C4A1956"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

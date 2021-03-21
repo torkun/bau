@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11DF3A1A-232C-FD2B-BF99-25653CAEAC3E" schemaObject="24E0A2B6-EEE9-54C2-B179-33DED3F08189" name="SATIS">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>BI_ETL</sourceObjSchema>
+<sourceObjName>SATIS</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FISNO" id="CF4291B7-6A37-E7F2-455C-1D1D4256D61A">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>SATIS</sourceObjSchema>
+<sourceObjName>FISNO</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUSTERIID" id="5DD96490-C154-7803-5247-A0E477CBCAF7">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>SATIS</sourceObjSchema>
+<sourceObjName>MUSTERIID</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,12,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8885A912-F11E-38DD-5625-DFFAA1F886A5" referredColumn="81E3E656-7DEF-9111-94A9-09EEC8CEB28D"/>
+</associations>
+</Column>
+<Column name="CALISANID" id="3B25E821-7277-ED82-5E9C-C7A9A9E2868E">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>SATIS</sourceObjSchema>
+<sourceObjName>CALISANID</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E79EABEC-DF70-3B8D-CA04-DD99752998B2" referredColumn="20EB1F1F-C3EA-147A-534F-A411C7CB32F9"/>
+</associations>
+</Column>
+<Column name="MAGAZAID" id="0BF8B988-A0FD-2BEA-C188-10DDA0354AA5">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>SATIS</sourceObjSchema>
+<sourceObjName>MAGAZAID</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARIH" id="D05C3F09-21DD-AC37-48EC-4BEFB34FCAC7">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>SATIS</sourceObjSchema>
+<sourceObjName>TARIH</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TUTAR" id="21853388-7D68-E0B6-E7CB-EA3C73C6AB24">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>SATIS</sourceObjSchema>
+<sourceObjName>TUTAR</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAGAZA" id="90399E29-6823-9425-304D-02163DBA17CE">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>SATIS</sourceObjSchema>
+<sourceObjName>MAGAZA</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA1434F9-B665-84A8-A17A-673D4843FED7" schemaObject="24E0A2B6-EEE9-54C2-B179-33DED3F08189" name="SATIS_PK">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>BI_ETL</sourceObjSchema>
+<sourceObjName>SYS_C007419</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF4291B7-6A37-E7F2-455C-1D1D4256D61A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E956F73A-18EB-03EE-CF90-8D76EC8C19FB" name="SYS_C007420">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DD96490-C154-7803-5247-A0E477CBCAF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD4C204D-BA7E-F616-B409-E3DCC507D742" name="SYS_C007421">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B25E821-7277-ED82-5E9C-C7A9A9E2868E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

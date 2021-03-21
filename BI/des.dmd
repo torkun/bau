@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="des" id="89A8AFE7-3795-0EEC-DD67-5535D0F121E4" version="3.5">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-13 23:57:12 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>89A8AFE7-3795-0EEC-DD67-5535D0F121E4</designId>
+</OSDM_Design>

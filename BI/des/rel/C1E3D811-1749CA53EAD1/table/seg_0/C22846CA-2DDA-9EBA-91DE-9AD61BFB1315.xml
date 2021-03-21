@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C22846CA-2DDA-9EBA-91DE-9AD61BFB1315" schemaObject="2D7561CC-BED7-ADE0-86B9-9C7A998F33DA" name="CALISAN">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>BI</sourceObjSchema>
+<sourceObjName>CALISAN</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CALISANID" id="0EC7DE9B-DFB5-F27A-8401-A7ECD04DC654">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>CALISANID</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISIM" id="3BB5D628-763F-E089-9DB3-0769A25F95C0">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>ISIM</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOYISIM" id="7C1C8D81-1F59-BC9F-66F1-691E94D6D91F">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>SOYISIM</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAGAZAID" id="8DE7438D-68D6-A44E-E40B-1D1E6F1DE147">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>MAGAZAID</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA1A7F8C-255E-ED20-7FAB-C916273AEA21" referredColumn="9CD8673A-8AAE-F1DD-7E94-9AEC5663417A"/>
+</associations>
+</Column>
+<Column name="GOREVI" id="45F236EC-BD0C-E91B-502B-4DCFD86254DA">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>GOREVI</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEDCC45B-0163-3930-C248-BCCC2B78D8EE" schemaObject="2D7561CC-BED7-ADE0-86B9-9C7A998F33DA" name="CALISAN_PK">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>BI</sourceObjSchema>
+<sourceObjName>SYS_C007386</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EC7DE9B-DFB5-F27A-8401-A7ECD04DC654"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F2AE907-BCD6-E3D6-6F60-F9DD51F23B07" name="SYS_C007409">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:46 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DE7438D-68D6-A44E-E40B-1D1E6F1DE147"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

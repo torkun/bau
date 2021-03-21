@@ -1,0 +1,165 @@
+-------------------------------------MUSTERI--------------------------------------------------------------------------------------------
+ALTER TABLE MUSTERI modify sokak VARCHAR2(50);
+ALTER TABLE MUSTERI modify mahalle VARCHAR2(50);
+ALTER TABLE MUSTERI add cinsiyet VARCHAR(1);
+ALTER TABLE MUSTERI add dogumgunu DATE;
+DECLARE
+kimlikno musteri.kimlikno%TYPE;
+isimrandomid gecici.isim.isimid%TYPE;
+soyisimrandomid gecici.soyisim.soyisim%TYPE;
+ilrandomid gecici.il.ilid%TYPE;
+ilcerandomid gecici.ilce.ilceid%TYPE;
+mahallerandomid gecici.mahalle.mahalleid%TYPE;
+sokakrandomid gecici.sokak.sokakid%TYPE;
+kapinorandomid NUMBER(3);
+dogumgunurandom DATE;
+BEGIN
+FOR sayac IN 1..10000 LOOP
+SELECT TRUNC(DBMS_RANDOM.VALUE(11111111111, 99999999999)) INTO kimlikno FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,631)) INTO isimrandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,50)) INTO soyisimrandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,81)) INTO ilrandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE((SELECT MIN(ILCEID) FROM gecici.ILCE where gecici.ILCE.ILID = ilrandomid),(SELECT MAX(ILCEID) FROM gecici.ILCE where gecici.ILCE.ILID = ilrandomid))) INTO ilcerandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,14668)) INTO mahallerandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,3127)) INTO sokakrandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,560)) INTO kapinorandomid FROM DUAL;
+SELECT TO_DATE(TRUNC(DBMS_RANDOM.VALUE(TO_CHAR(DATE '1940-01-01','J'),TO_CHAR(DATE '2000-12-31','J'))),'J')INTO dogumgunurandom  FROM DUAL;
+INSERT INTO MUSTERI values (kimlikno,(SELECT ISIM FROM gecici.ISIM where gecici.ISIM.ISIMID = isimrandomid),
+    (SELECT SOYISIM FROM gecici.SOYISIM where gecici.SOYISIM.SOYISIMID = soyisimrandomid),
+    (SELECT IL FROM gecici.IL where gecici.IL.ILID = ilrandomid),
+    (SELECT ILCE FROM gecici.ILCE where gecici.ILCE.ILID = ilrandomid and gecici.ILCE.ILCEID = ilcerandomid),
+    (SELECT MAHALLE FROM gecici.MAHALLE where gecici.MAHALLE.MAHALLEID = mahallerandomid),
+    (SELECT SOKAK FROM gecici.SOKAK where gecici.SOKAK.SOKAKID = sokakrandomid),
+    kapinorandomid,
+    (SELECT CINSIYET FROM gecici.isim where isimid = isimrandomid),
+    dogumgunurandom);
+END LOOP;
+END;
+
+
+-----------------------------------CALISAN-----------------------------------------------------------------------------------------------
+create table calisan(calisanID number(3) primary key,isim varchar2(20),soyisim varchar2(20),magazaID NUMBER(3),gorevi VARCHAR2(20));
+CREATE SEQUENCE calisanidseq NOMINVALUE NOMAXVALUE NOCACHE;
+CREATE SEQUENCE magazaidseq MINVALUE 1 MAXVALUE  81 NOCACHE;
+DECLARE
+isimrandomid gecici.isim.isimid%TYPE;
+soyisimrandomid gecici.soyisim.soyisim%TYPE;
+
+BEGIN
+FOR i IN 1..363 LOOP
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,631)) INTO isimrandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,50)) INTO soyisimrandomid FROM DUAL;
+INSERT INTO CALISAN values(calisanidseq.NEXTVAL,(SELECT ISIM FROM gecici.ISIM where gecici.ISIM.ISIMID = isimrandomid),
+    (SELECT SOYISIM FROM gecici.SOYISIM where gecici.SOYISIM.SOYISIMID = soyisimrandomid),
+    magazaidseq.NEXTVAL,'Satış Temsilcisi');
+END LOOP;
+END;
+
+----------------------------------MAGAZA-------------------------------------------------------------------------------------------------
+create table magaza(magazaID number(3) primary key,magazaadi varchar2(20),bolge varchar2(20),sehir VARCHAR2(20),ilce VARCHAR2(20),mahalle VARCHAR2(20),sokak VARCHAR2(20),kapino Number(3));
+CREATE SEQUENCE magazaidseqs MINVALUE 1 MAXVALUE  81 NOCACHE;
+DECLARE
+ilrandomid gecici.il.ilid%TYPE;
+ilcerandomid gecici.ilce.ilceid%TYPE;
+mahallerandomid gecici.mahalle.mahalleid%TYPE;
+sokakrandomid gecici.sokak.sokakid%TYPE;
+kapinorandomid NUMBER(3);
+BEGIN
+FOR i IN 1..81 LOOP
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,81)) INTO ilrandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE((SELECT MIN(ILCEID) FROM gecici.ILCE where gecici.ILCE.ILID = ilrandomid),(SELECT MAX(ILCEID) FROM gecici.ILCE where gecici.ILCE.ILID = ilrandomid))) INTO ilcerandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,14668)) INTO mahallerandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,3127)) INTO sokakrandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,560)) INTO kapinorandomid FROM DUAL;
+INSERT INTO MAGAZA values(magazaidseqs.NEXTVAL,
+    (SELECT IL FROM gecici.IL where gecici.IL.ILID = ilrandomid),
+    (SELECT BOLGE FROM gecici.IL where gecici.IL.ILID = ilrandomid),
+    (SELECT IL FROM gecici.IL where gecici.IL.ILID = ilrandomid),
+    (SELECT ILCE FROM gecici.ILCE where gecici.ILCE.ILID = ilrandomid and gecici.ILCE.ILCEID = ilcerandomid), 
+    (SELECT MAHALLE FROM gecici.MAHALLE where gecici.MAHALLE.MAHALLEID = mahallerandomid),
+    (SELECT SOKAK FROM gecici.SOKAK where gecici.SOKAK.SOKAKID = sokakrandomid),
+    kapinorandomid);
+END LOOP;
+END;
+---------------------------------URUNLER--------------------------------------------------------------------------------------------------------------
+create table urunler(barkodNo number(15) primary key,urunAdi varchar2(20),alisFiyat NUMBER(4,2),satisFiyat NUMBER(4,2),kategoriID NUMBER(2));
+DECLARE
+cursor aktarim is select barkodno,urunadi from gecici.urunler;
+alisfiyatrandom bi.urunler.alisfiyat%type;
+satisfiyatrandom bi.urunler.satisfiyat%type;
+kategorirandom bi.urunler.kategoriid%type;
+
+BEGIN
+for sayac in aktarim loop
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,100),1) INTO alisfiyatrandom FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(alisfiyatrandom,100),1) INTO satisfiyatrandom FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,10)) INTO kategorirandom FROM DUAL;
+INSERT INTO  URUNLER values (sayac.barkodno,sayac.urunadi,alisfiyatrandom,satisfiyatrandom,kategorirandom);
+END LOOP;
+
+END;
+------------------------------CALISANDETAY--------------------------------------------------------------------------------------------------------
+create table calisandetay(calisanid number(3) primary key,maas NUMBER(4,2));
+alter table calisandetay add foreign key(calisanid) references calisan(calisanID);
+DECLARE
+cursor aktarim is select calisanid from bi.calisan;
+calisanmaasrandom bi.calisandetay.maas%type;
+
+BEGIN
+for sayac in aktarim loop
+SELECT TRUNC(DBMS_RANDOM.VALUE(2100,5000),2) INTO calisanmaasrandom FROM DUAL;
+INSERT INTO  calisandetay values (sayac.calisanid,calisanmaasrandom);
+END LOOP;
+
+END;
+----------------------------STOK---------------------------------------------------------------------------------------------------------------------
+create table stok (barkodno NUMBER(15),adet number(5));
+alter table stok add foreign key(barkodno) references urunler(barkodno);
+DECLARE
+cursor aktarim is select barkodno from bi.urunler;
+adetrandom bi.stok.adet%type;
+
+BEGIN
+for sayac in aktarim loop
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,10000)) INTO adetrandom FROM DUAL;
+INSERT INTO  stok values (sayac.barkodno,adetrandom);
+END LOOP;
+
+END;
+
+---------------------------------------------------------------------------SATISYAP-------------------------------------------------------------------
+DECLARE
+calisanrandomid calisan.calisanid%TYPE;
+magazarandomid  magaza.magazaid%TYPE;
+tarihrandom     date;
+fisnokayit      NUMBER(10);
+adetrandom      stok.adet%TYPE;
+barkodnorandom  stok.barkodno%TYPE;
+urunal          NUMBER(2);
+tutartmp        NUMBER(10,2);
+BEGIN
+FOR x IN 1..1000 LOOP
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,20)) INTO urunal FROM DUAL;
+fisnokayit := fisnoseq.NEXTVAL;
+
+SELECT barkodno INTO barkodnorandom from (select barkodno from (select * from stok where adet <> 0 order by DBMS_RANDOM.VALUE) where rownum < 2);
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,(SELECT MAX(calisanid) FROM calisan))) INTO calisanrandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,(SELECT MAX(magazaid) FROM magaza))) INTO magazarandomid FROM DUAL;
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,(SELECT adet FROM stok where barkodno = barkodnorandom))) INTO adetrandom FROM DUAL;
+INSERT INTO satis values(fisnokayit,
+    (select kimlikno from (select * from musteri order by DBMS_RANDOM.VALUE) where rownum < 2),
+    calisanrandomid,magazarandomid,
+    (SELECT TO_DATE(TRUNC(DBMS_RANDOM.VALUE(TO_CHAR(DATE '2000-01-01','J'),TO_CHAR(DATE '2019-12-31','J'))),'J') FROM DUAL),0);
+FOR i IN 1..urunal LOOP
+SELECT barkodno INTO barkodnorandom from (select barkodno from (select * from stok where adet <> 0 order by DBMS_RANDOM.VALUE) where rownum < 2);
+SELECT TRUNC(DBMS_RANDOM.VALUE(1,(SELECT adet FROM stok where barkodno = barkodnorandom))) INTO adetrandom FROM DUAL;
+INSERT INTO satisdetay values (fisnokayit,barkodnorandom,adetrandom);
+
+UPDATE stok SET adet = adet-adetrandom WHERE barkodno = barkodnorandom;
+SELECT satisfiyat INTO tutartmp from urunler where barkodno = barkodnorandom;
+
+UPDATE satis SET tutar = tutartmp * adetrandom where fisno = fisnokayit;
+END LOOP;
+DBMS_OUTPUT.PUT_LINE(urunal);
+END LOOP;
+END;

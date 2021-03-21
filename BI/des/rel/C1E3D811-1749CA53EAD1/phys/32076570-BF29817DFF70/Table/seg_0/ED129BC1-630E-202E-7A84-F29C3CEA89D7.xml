@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MUSTERI" directorySegmentName="seg_0" id="ED129BC1-630E-202E-7A84-F29C3CEA89D7">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<schemaObject>2D7561CC-BED7-ADE0-86B9-9C7A998F33DA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D75FAADD-FB44-1A4E-65AB-9D3F81B441DF</segment>
+<tableSpace>3B89F602-13F4-8F40-846E-9C02E976FCE5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="KAPINO" id="2CFA12CA-DFF2-4A0F-47E8-6167F3222B10">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IL" id="2F628C94-9473-8085-6437-71CF5B8D9695">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAHALLE" id="3EDE5F76-2E5A-BB15-4036-D626AC156F05">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KIMLIKNO" id="50A82CD9-F8A9-FD19-CCFE-4CA0E2619AE8">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOKAK" id="AF4E4666-7B86-7DA9-3ACC-D9062CAFA218">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISIM" id="B6C94CC2-94DE-D1B4-2171-FBD366DDC045">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CINSIYET" id="C64DE4CF-FC14-C0D6-B114-A05AEA9E21EE">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ILCE" id="C960E37E-8470-E4BB-50D1-B4C6FADAF8F0">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOGUMGUNU" id="D9ED02BF-45BC-85B4-1DFC-A8FCEEA638D4">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOYISIM" id="E65EEA2C-6619-E4F7-4E3D-9898BF203F57">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MUSTERI_PK" id="BFBBC17A-25D4-729A-94E4-9AE46C26603A">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<schemaObject>2D7561CC-BED7-ADE0-86B9-9C7A998F33DA</schemaObject>
+<segment>1392FA85-9A45-1971-5409-87504E084A95</segment>
+<tableSpace>3B89F602-13F4-8F40-846E-9C02E976FCE5</tableSpace>
+<indexSegment>1392FA85-9A45-1971-5409-87504E084A95</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

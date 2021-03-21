@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SATISDETAY" directorySegmentName="seg_0" id="465ACF5F-71D9-ADB6-33FE-3DB608FDF2CD">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<schemaObject>2D7561CC-BED7-ADE0-86B9-9C7A998F33DA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D75FAADD-FB44-1A4E-65AB-9D3F81B441DF</segment>
+<tableSpace>3B89F602-13F4-8F40-846E-9C02E976FCE5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ADET" id="2CE404B3-6EAA-2DE0-6B73-04A1EECD6658">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BARKODNO" id="6D9846D7-9283-FF63-99BF-C8900C4A1956">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FISNO" id="BD0980D1-CC77-64E0-23AF-270811DAB10B">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007401" id="644EF593-7BFE-B6B2-2396-CC621ED6AB68">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007402" id="BE77A10D-6FFA-D9B5-6F8E-347DF5B12B7E">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:11 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

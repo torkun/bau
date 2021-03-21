@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="176FD864-64FC-7CEA-A84C-A5F8DCEAD6B3" schemaObject="2D7561CC-BED7-ADE0-86B9-9C7A998F33DA" name="CALISANDETAY">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>BI</sourceObjSchema>
+<sourceObjName>CALISANDETAY</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:50 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CALISANID" id="67B5CB33-E0C1-027F-3DCB-1A96C6D0F09C">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>CALISANDETAY</sourceObjSchema>
+<sourceObjName>CALISANID</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:50 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E36904ED-949E-C7A7-F9F1-35C15E67A2C1" referredColumn="0EC7DE9B-DFB5-F27A-8401-A7ECD04DC654"/>
+</associations>
+</Column>
+<Column name="MAAS" id="1823DDF4-0D5B-75AC-6FF0-29B454CEF964">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>CALISANDETAY</sourceObjSchema>
+<sourceObjName>MAAS</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:50 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED83143D-8F12-1934-2E1D-260F2A9F5727" name="SYS_C007395">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:50 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B5CB33-E0C1-027F-3DCB-1A96C6D0F09C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

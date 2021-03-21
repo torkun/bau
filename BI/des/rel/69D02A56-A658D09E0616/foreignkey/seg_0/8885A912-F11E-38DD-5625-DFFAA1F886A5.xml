@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8885A912-F11E-38DD-5625-DFFAA1F886A5" containerWithKeyObject="11DF3A1A-232C-FD2B-BF99-25653CAEAC3E" localFKIndex="E956F73A-18EB-03EE-CF90-8D76EC8C19FB" name="SYS_C007420">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>BI_ETL</sourceObjSchema>
+<sourceObjName>SYS_C007420</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<referredTableLongName>BI_ETL.MUSTERI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0EEECF2D-9789-4CA6-DAB4-D909DDFE73BE</referredTableID>
+<keyObject>B20D8129-4713-A46A-D198-61E31EED2BA6</keyObject>
+<referredKeyID>B20D8129-4713-A46A-D198-61E31EED2BA6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>KIMLIKNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

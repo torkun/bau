@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17DB3F5C-6973-ED5C-CBAA-5F3C41C001BD" schemaObject="24E0A2B6-EEE9-54C2-B179-33DED3F08189" name="CALISAN">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>BI_ETL</sourceObjSchema>
+<sourceObjName>CALISAN</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CALISANID" id="20EB1F1F-C3EA-147A-534F-A411C7CB32F9">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>CALISANID</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISIM" id="FBCEEBFF-E5AD-3DB5-FBE4-05570565498C">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>ISIM</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOYISIM" id="DA4EA231-F102-5715-7DE7-D0362817A73A">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>SOYISIM</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAGAZAID" id="80A4752A-800D-8A93-98DA-71799B9C2CF6">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>MAGAZAID</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOREVI" id="9D771BB6-5E53-DCBB-35DF-F9F6B609E9D2">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>GOREVI</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAAS" id="902EF153-DDA5-471C-BDFC-121AB43DDBBD">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>CALISAN</sourceObjSchema>
+<sourceObjName>MAAS</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A405BE1-F611-5F91-2534-B896E6A0E001" schemaObject="24E0A2B6-EEE9-54C2-B179-33DED3F08189" name="CALISAN_PK">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>BI_ETL</sourceObjSchema>
+<sourceObjName>SYS_C007410</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20EB1F1F-C3EA-147A-534F-A411C7CB32F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

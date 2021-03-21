@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="URUNLER" directorySegmentName="seg_0" id="8FE25C03-FD99-2610-EE84-EAA939BFFB62">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<schemaObject>2D7561CC-BED7-ADE0-86B9-9C7A998F33DA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D75FAADD-FB44-1A4E-65AB-9D3F81B441DF</segment>
+<tableSpace>3B89F602-13F4-8F40-846E-9C02E976FCE5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SATISFIYAT" id="4AFD85C0-516C-5993-DC26-A1F033F0CD6F">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KATEGORIID" id="5413FD95-45D0-7FFB-2A92-2BC7ACFB16E4">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALISFIYAT" id="7D28BD28-A127-11AB-A1F1-36AE744BEEEC">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="URUNADI" id="E246363D-332F-24CB-DC4A-41AB1992F568">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BARKODNO" id="FC7D2DCF-FB69-BEC9-71F3-E74548D91B01">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="URUNLER_PK" id="0F59D970-398A-5D12-BF68-042532F3EA4C">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:26 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<schemaObject>2D7561CC-BED7-ADE0-86B9-9C7A998F33DA</schemaObject>
+<segment>1392FA85-9A45-1971-5409-87504E084A95</segment>
+<tableSpace>3B89F602-13F4-8F40-846E-9C02E976FCE5</tableSpace>
+<indexSegment>1392FA85-9A45-1971-5409-87504E084A95</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DADB46EB-B094-BFAF-107E-7B6520ED62D1" containerWithKeyObject="2F14BED3-E606-86E0-6270-9C52FB6BFD9E" localFKIndex="A9511C04-91B9-9CF7-B143-2638E239EF98" name="SYS_C007423">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>BI_ETL</sourceObjSchema>
+<sourceObjName>SYS_C007423</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:41 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<referredTableLongName>BI_ETL.URUNLER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A9ED567B-566B-3EE0-AEBB-88815393CA5F</referredTableID>
+<keyObject>FB65D35E-0021-CE24-ED8D-E52382CFA523</keyObject>
+<referredKeyID>FB65D35E-0021-CE24-ED8D-E52382CFA523</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BARKODNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

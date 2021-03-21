@@ -1,0 +1,88 @@
+UPDATE IL SET BOLGE = 'Akdeniz' WHERE IL = 'Adana';
+UPDATE IL SET BOLGE = 'Akdeniz' WHERE IL = 'Antalya';
+UPDATE IL SET BOLGE = 'Akdeniz' WHERE IL = 'Burdur';
+UPDATE IL SET BOLGE = 'Akdeniz' WHERE IL = 'Hatay';
+UPDATE IL SET BOLGE = 'Akdeniz' WHERE IL = 'Isparta';
+UPDATE IL SET BOLGE = 'Akdeniz' WHERE IL = 'K.maraş';
+UPDATE IL SET BOLGE = 'Akdeniz' WHERE IL = 'İçel (Mersin)';
+UPDATE IL SET BOLGE = 'Akdeniz' WHERE IL = 'Osmaniye';
+
+
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Ağrı';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Ardahan';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Bingöl';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Bitlis';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Elazığ';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Erzincan';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Erzurum';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Hakkari';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Iğdır';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Kars';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Malatya';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Muş';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Tunceli';
+UPDATE IL SET BOLGE = 'Doğu Anadolu' WHERE IL = 'Van';
+
+UPDATE IL SET BOLGE = 'Ege' WHERE IL = 'Afyon';
+UPDATE IL SET BOLGE = 'Ege' WHERE IL = 'Aydın';
+UPDATE IL SET BOLGE = 'Ege' WHERE IL = 'Denizli';
+UPDATE IL SET BOLGE = 'Ege' WHERE IL = 'İzmir';
+UPDATE IL SET BOLGE = 'Ege' WHERE IL = 'Kütahya';
+UPDATE IL SET BOLGE = 'Ege' WHERE IL = 'Manisa';
+UPDATE IL SET BOLGE = 'Ege' WHERE IL = 'Muğla';
+UPDATE IL SET BOLGE = 'Ege' WHERE IL = 'Uşak';
+
+UPDATE IL SET BOLGE = 'Güneydoğu Anadolu' WHERE IL = 'Adıyaman';
+UPDATE IL SET BOLGE = 'Güneydoğu Anadolu' WHERE IL = 'Batman';
+UPDATE IL SET BOLGE = 'Güneydoğu Anadolu' WHERE IL = 'Diyarbakır';
+UPDATE IL SET BOLGE = 'Güneydoğu Anadolu' WHERE IL = 'Gaziantep';
+UPDATE IL SET BOLGE = 'Güneydoğu Anadolu' WHERE IL = 'Mardin';
+UPDATE IL SET BOLGE = 'Güneydoğu Anadolu' WHERE IL = 'Siirt';
+UPDATE IL SET BOLGE = 'Güneydoğu Anadolu' WHERE IL = 'Şanlıurfa';
+UPDATE IL SET BOLGE = 'Güneydoğu Anadolu' WHERE IL = 'Şırnak';
+UPDATE IL SET BOLGE = 'Güneydoğu Anadolu' WHERE IL = 'Kilis';
+
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Aksaray';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Ankara';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Çankırı';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Eskişehir';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Karaman';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Kayseri';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Kırıkkale';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Kırşehir';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Konya';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Nevşehir';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Niğde';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Sivas';
+UPDATE IL SET BOLGE = 'İç Anadolu' WHERE IL = 'Yozgat';
+
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'Balıkesir';
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'Bilecik';
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'Bursa';
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'Çanakkale';
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'Edirne';
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'İstanbul';
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'Kırklareli';
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'Kocaeli';
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'Sakarya';
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'Tekirdağ';
+UPDATE IL SET BOLGE = 'Marmara' WHERE IL = 'Yalova';
+
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Amasya';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Artvin';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Bartın';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Bayburt';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Bolu';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Çorum';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Düzce';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Giresun';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Gümüşhane';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Karabük';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Kastamonu';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Ordu';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Rize';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Samsun';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Sinop';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Tokat';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Trabzon';
+UPDATE IL SET BOLGE = 'Karadeniz' WHERE IL = 'Zonguldak';

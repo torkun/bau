@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="BI_ETL" directorySegmentName="seg_0" id="24E0A2B6-EEE9-54C2-B179-33DED3F08189">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</SchemaObject>

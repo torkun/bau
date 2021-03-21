@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9ED567B-566B-3EE0-AEBB-88815393CA5F" schemaObject="24E0A2B6-EEE9-54C2-B179-33DED3F08189" name="URUNLER">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>BI_ETL</sourceObjSchema>
+<sourceObjName>URUNLER</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BARKODNO" id="1B35E4FF-DA5A-9287-DD10-671D790CA264">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>URUNLER</sourceObjSchema>
+<sourceObjName>BARKODNO</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URUNADI" id="3A1F95E0-ABFB-98EF-E9D8-A0D95B702CA0">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>URUNLER</sourceObjSchema>
+<sourceObjName>URUNADI</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALISFIYAT" id="2E05D094-3DE6-DA98-937B-BF2EF4F1FC59">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>URUNLER</sourceObjSchema>
+<sourceObjName>ALISFIYAT</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SATISFIYAT" id="31D8798A-E6D0-2977-CF89-43FD35400711">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>URUNLER</sourceObjSchema>
+<sourceObjName>SATISFIYAT</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADET" id="3538D9FA-BF96-9EB5-56CF-E6762FCB74E5">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>URUNLER</sourceObjSchema>
+<sourceObjName>ADET</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB65D35E-0021-CE24-ED8D-E52382CFA523" schemaObject="24E0A2B6-EEE9-54C2-B179-33DED3F08189" name="URUNLER_PK">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>BI_ETL</sourceObjSchema>
+<sourceObjName>SYS_C007415</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:45 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B35E4FF-DA5A-9287-DD10-671D790CA264"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

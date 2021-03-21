@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED129BC1-630E-202E-7A84-F29C3CEA89D7" schemaObject="2D7561CC-BED7-ADE0-86B9-9C7A998F33DA" name="MUSTERI">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>BI</sourceObjSchema>
+<sourceObjName>MUSTERI</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KIMLIKNO" id="50A82CD9-F8A9-FD19-CCFE-4CA0E2619AE8">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>MUSTERI</sourceObjSchema>
+<sourceObjName>KIMLIKNO</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISIM" id="B6C94CC2-94DE-D1B4-2171-FBD366DDC045">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>MUSTERI</sourceObjSchema>
+<sourceObjName>ISIM</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOYISIM" id="E65EEA2C-6619-E4F7-4E3D-9898BF203F57">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>MUSTERI</sourceObjSchema>
+<sourceObjName>SOYISIM</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IL" id="2F628C94-9473-8085-6437-71CF5B8D9695">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>MUSTERI</sourceObjSchema>
+<sourceObjName>IL</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ILCE" id="C960E37E-8470-E4BB-50D1-B4C6FADAF8F0">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>MUSTERI</sourceObjSchema>
+<sourceObjName>ILCE</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAHALLE" id="3EDE5F76-2E5A-BB15-4036-D626AC156F05">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>MUSTERI</sourceObjSchema>
+<sourceObjName>MAHALLE</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOKAK" id="AF4E4666-7B86-7DA9-3ACC-D9062CAFA218">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>MUSTERI</sourceObjSchema>
+<sourceObjName>SOKAK</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KAPINO" id="2CFA12CA-DFF2-4A0F-47E8-6167F3222B10">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>MUSTERI</sourceObjSchema>
+<sourceObjName>KAPINO</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CINSIYET" id="C64DE4CF-FC14-C0D6-B114-A05AEA9E21EE">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>MUSTERI</sourceObjSchema>
+<sourceObjName>CINSIYET</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOGUMGUNU" id="D9ED02BF-45BC-85B4-1DFC-A8FCEEA638D4">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>MUSTERI</sourceObjSchema>
+<sourceObjName>DOGUMGUNU</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFBBC17A-25D4-729A-94E4-9AE46C26603A" schemaObject="2D7561CC-BED7-ADE0-86B9-9C7A998F33DA" name="MUSTERI_PK">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>BI</sourceObjSchema>
+<sourceObjName>SYS_C007365</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:24:01 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50A82CD9-F8A9-FD19-CCFE-4CA0E2619AE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

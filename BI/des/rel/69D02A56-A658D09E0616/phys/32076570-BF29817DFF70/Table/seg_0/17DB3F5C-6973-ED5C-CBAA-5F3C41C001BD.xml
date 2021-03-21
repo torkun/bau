@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CALISAN" directorySegmentName="seg_0" id="17DB3F5C-6973-ED5C-CBAA-5F3C41C001BD">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<schemaObject>24E0A2B6-EEE9-54C2-B179-33DED3F08189</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4B17C173-3A48-F899-3FB3-3051B76C3738</segment>
+<tableSpace>81FFEC51-75DF-6F31-7BF1-1BA926BEDCE7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CALISANID" id="20EB1F1F-C3EA-147A-534F-A411C7CB32F9">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAGAZAID" id="80A4752A-800D-8A93-98DA-71799B9C2CF6">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAAS" id="902EF153-DDA5-471C-BDFC-121AB43DDBBD">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GOREVI" id="9D771BB6-5E53-DCBB-35DF-F9F6B609E9D2">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOYISIM" id="DA4EA231-F102-5715-7DE7-D0362817A73A">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISIM" id="FBCEEBFF-E5AD-3DB5-FBE4-05570565498C">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CALISAN_PK" id="6A405BE1-F611-5F91-2534-B896E6A0E001">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:25 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<schemaObject>24E0A2B6-EEE9-54C2-B179-33DED3F08189</schemaObject>
+<segment>06103475-7A10-9A99-EA65-AEEA71C16872</segment>
+<tableSpace>81FFEC51-75DF-6F31-7BF1-1BA926BEDCE7</tableSpace>
+<indexSegment>06103475-7A10-9A99-EA65-AEEA71C16872</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

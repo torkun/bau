@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SATIS" directorySegmentName="seg_0" id="11DF3A1A-232C-FD2B-BF99-25653CAEAC3E">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<schemaObject>24E0A2B6-EEE9-54C2-B179-33DED3F08189</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4B17C173-3A48-F899-3FB3-3051B76C3738</segment>
+<tableSpace>81FFEC51-75DF-6F31-7BF1-1BA926BEDCE7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MAGAZAID" id="0BF8B988-A0FD-2BEA-C188-10DDA0354AA5">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TUTAR" id="21853388-7D68-E0B6-E7CB-EA3C73C6AB24">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CALISANID" id="3B25E821-7277-ED82-5E9C-C7A9A9E2868E">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MUSTERIID" id="5DD96490-C154-7803-5247-A0E477CBCAF7">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAGAZA" id="90399E29-6823-9425-304D-02163DBA17CE">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FISNO" id="CF4291B7-6A37-E7F2-455C-1D1D4256D61A">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TARIH" id="D05C3F09-21DD-AC37-48EC-4BEFB34FCAC7">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007421" id="DD4C204D-BA7E-F616-B409-E3DCC507D742">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007420" id="E956F73A-18EB-03EE-CF90-8D76EC8C19FB">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SATIS_PK" id="DA1434F9-B665-84A8-A17A-673D4843FED7">
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<schemaObject>24E0A2B6-EEE9-54C2-B179-33DED3F08189</schemaObject>
+<segment>06103475-7A10-9A99-EA65-AEEA71C16872</segment>
+<tableSpace>81FFEC51-75DF-6F31-7BF1-1BA926BEDCE7</tableSpace>
+<indexSegment>06103475-7A10-9A99-EA65-AEEA71C16872</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

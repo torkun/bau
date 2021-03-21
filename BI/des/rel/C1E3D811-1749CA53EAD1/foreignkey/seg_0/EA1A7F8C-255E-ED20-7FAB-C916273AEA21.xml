@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA1A7F8C-255E-ED20-7FAB-C916273AEA21" containerWithKeyObject="C22846CA-2DDA-9EBA-91DE-9AD61BFB1315" localFKIndex="5F2AE907-BCD6-E3D6-6F60-F9DD51F23B07" name="SYS_C007409">
+<sourceConnName>BI</sourceConnName>
+<sourceObjSchema>BI</sourceObjSchema>
+<sourceObjName>SYS_C007409</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:23:46 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<referredTableLongName>BI.MAGAZA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F3B63FD-341A-3F6D-E91F-EF6877B0E0E2</referredTableID>
+<keyObject>03BBD104-8245-F499-E156-EEF3482C8CA2</keyObject>
+<referredKeyID>03BBD104-8245-F499-E156-EEF3482C8CA2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>MAGAZAID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

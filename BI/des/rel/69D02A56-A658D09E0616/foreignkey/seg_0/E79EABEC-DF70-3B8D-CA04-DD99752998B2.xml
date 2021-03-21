@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E79EABEC-DF70-3B8D-CA04-DD99752998B2" containerWithKeyObject="11DF3A1A-232C-FD2B-BF99-25653CAEAC3E" localFKIndex="DD4C204D-BA7E-F616-B409-E3DCC507D742" name="SYS_C007421">
+<sourceConnName>BI_ETL</sourceConnName>
+<sourceObjSchema>BI_ETL</sourceObjSchema>
+<sourceObjName>SYS_C007421</sourceObjName>
+<createdBy>torkun</createdBy>
+<createdTime>2019-05-14 00:53:36 UTC</createdTime>
+<ownerDesignName>des</ownerDesignName>
+<referredTableLongName>BI_ETL.CALISAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>17DB3F5C-6973-ED5C-CBAA-5F3C41C001BD</referredTableID>
+<keyObject>6A405BE1-F611-5F91-2534-B896E6A0E001</keyObject>
+<referredKeyID>6A405BE1-F611-5F91-2534-B896E6A0E001</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CALISANID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
